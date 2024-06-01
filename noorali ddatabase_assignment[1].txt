@@ -1,0 +1,55 @@
+
+                                                                              ((this is the pharmacy database))
+
+CREATE DATABASE PHARMACY;
+
+USE pharmacy
+
+create table medicin(
+name varchar(15),
+manafacture varchar(22),
+price int(7),
+quantity int(10)
+
+);
+
+create table customars(
+name varchar(20),
+address varchar(50),
+phonNumber int(14)
+
+
+);
+
+
+create table orders(
+customer_Id int(100),
+medicine_Id int(100),
+quantity int(12)
+
+
+);
+
+
+insert into customars(
+name,address,phonNumber)VALUES('NOORALI','KHNDHAR',0703047798),
+('NOORI','KHNDHAR',0700313108),
+('NOROZ','KHDAHAR',0703088880);
+
+	
+
+
+select * form customars;
+
+
+
+DELETE FROM customars where name='NOROZ';
+
+
+
+
+
+
+
+ Name:-Noor ali Noori      
+Fname:-Shah wali
